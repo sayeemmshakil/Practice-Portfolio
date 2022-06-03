@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+img{
+    max-width: 100%;
+    width: 100%;
+}
+.clr{
+    clear: both;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.header{
+    background: url(../images/top-banner.png);
+    background-repeat: no-repeat;
+}
+.header_content{
+    padding-top: 30px;
+}
+.left_side{
+    width: 550px;
+    float: left;
+}
+h2{
+    font-size: 50px;
+    font-weight: 500;
+}
+h1{
+    font-size: 50px;
+    font-weight: 500;
+    padding-bottom: 15px;
+}
+.text_highlight{
+    color: orange;
+}
+h4{
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+p{
+    color: dimgray;
+    padding-bottom: 30px;
+}
+.link_btn{
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px 25px;
+    background: linear-gradient(45deg, lightSalmon, tomato);
+    text-transform: uppercase;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.right_side{
+    width: 550px;
+    float: left;
+}
+.header_img img{
+    width: 500px;
+    margin-left: 89px;
+}
+
+/* --------------------------- */
+
+.dream{
+    padding-top: 50px;
+    background: url(../images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.dream_img img{
+    margin-left: 0;
+}
+.dream_text{
+    margin-left: 40px;
+}
+
+/* ----------------- */
+.expriences{
+    padding-bottom: 80px;
+}
+.exp_head{
+    padding: 40px 0;
+}
+.single_exp{
+    box-shadow: 0 0 10px 4px gray;
+    padding: 20px 25px;
+    margin-left: 40px;
+}
+.single_exp:first-child{
+    margin-left: 0;
+}
+#designer{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightSalmon, tomato);
+    border-image-slice: 1;
+}
+#developer{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+}
+
+/* -------------------- */
+.footer{
+    text-align: center;
+}
