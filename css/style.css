@@ -21,14 +21,6 @@ img{
 body{
     font-family: 'Poppins', sans-serif;
 }
-
-.header{
-    background: url(../images/top-banner.png);
-    background-repeat: no-repeat;
-}
-.header_content{
-    padding-top: 30px;
-}
 .left_side{
     width: 550px;
     float: left;
@@ -70,13 +62,31 @@ p{
     width: 550px;
     float: left;
 }
+/* -----------------------------------------------
+                Common CSS End
+----------------------------------------------- */
+
+/* -----------------------------------------------
+                Header Section Start
+----------------------------------------------- */
+.header{
+    background: url(../images/top-banner.png);
+    background-repeat: no-repeat;
+}
+.header_content{
+    padding-top: 30px;
+}
 .header_img img{
     width: 500px;
     margin-left: 89px;
 }
+/* -----------------------------------------------
+                Header Section End
+----------------------------------------------- */
 
-/* --------------------------- */
-
+/* -----------------------------------------------
+                Dream Section Start
+----------------------------------------------- */
 .dream{
     padding-top: 50px;
     background: url(../images/dream-bg.png);
@@ -89,8 +99,13 @@ p{
 .dream_text{
     margin-left: 40px;
 }
+/* -----------------------------------------------
+                Dream Section End
+----------------------------------------------- */
 
-/* ----------------- */
+/* -----------------------------------------------
+                Experiences Section Start
+----------------------------------------------- */
 .expriences{
     padding-bottom: 80px;
 }
@@ -115,8 +130,16 @@ p{
     border-image: linear-gradient(180deg, blue, cyan);
     border-image-slice: 1;
 }
+/* -----------------------------------------------
+                Experiences Section End
+----------------------------------------------- */
 
-/* -------------------- */
+/* -----------------------------------------------
+                Footer Section Start
+----------------------------------------------- */
 .footer{
     text-align: center;
 }
+/* -----------------------------------------------
+                Footer Section End
+----------------------------------------------- */
